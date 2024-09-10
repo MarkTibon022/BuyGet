@@ -1,0 +1,190 @@
+@media (max-width: 1024px) {
+  #lagin {
+    margin: 7rem 15rem;
+  }
+  #signup {
+    margin: 5rem 15rem;
+  }
+}
+
+@media (max-width: 768px) {
+  #lagin {
+    margin: 7rem 5rem;
+  }
+  #signup {
+    margin: 5rem 5rem;
+  }
+}
+
+@media (max-width: 425px) {
+  #lagin {
+    margin: 9rem 1rem;
+  }
+
+  form .form_header {
+    margin: 1rem;
+  }
+
+  .form_header img {
+    width: 8rem;
+  }
+
+  .form_header h1 {
+    font-weight: 600;
+    font-size: 2rem;
+  }
+
+  form .form_input {
+    margin: 1rem;
+  }
+
+  .form_input input {
+    width: 100%;
+    border: none;
+    border: 1px solid rgb(108, 106, 106);
+    padding: 0.8rem;
+    border-radius: 8px;
+  }
+
+  form p {
+    margin: 1rem;
+    font-size: 1.2rem;
+  }
+
+  form a {
+    color: black;
+  }
+
+  form .form_btn {
+    margin: 1rem;
+    display: flex;
+    justify-content: end;
+  }
+
+  .form_btn button {
+    padding: 0.5rem 1rem;
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    border-radius: 50px;
+  }
+  #signup {
+    margin: 5rem 1rem;
+  }
+
+  form .form_signup_header {
+    margin: 1rem;
+  }
+
+  .form_signup_header img {
+    width: 8rem;
+  }
+
+  .form_signup_header h1 {
+    font-weight: 600;
+    font-size: 2rem;
+  }
+
+  form .form_signup_input {
+    margin: 1rem;
+  }
+
+  .form_signup_input input {
+    width: 100%;
+    border: none;
+    border: 1px solid rgb(108, 106, 106);
+    padding: 0.8rem;
+    border-radius: 8px;
+  }
+
+  form .form_signup_btn {
+    margin: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .form_signup_btn a {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border: 1px solid black;
+    font-weight: 700;
+    border-radius: 50px;
+  }
+
+  .form_signup_btn button {
+    padding: 0.5rem 1rem;
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    border-radius: 50px;
+  }
+
+  #account .account_nav ul {
+    border-bottom: 1px solid black;
+  }
+
+  #account h4 {
+    font-size: 1rem;
+  }
+
+  #account .account_nav ul li a {
+    color: black;
+    font-size: 0.7rem;
+  }
+  .profile .img_user img {
+    border-radius: 50%;
+    width: 5rem;
+  }
+
+  #cart .account_nav ul {
+    border-bottom: 1px solid black;
+    font-size: 0.7rem;
+  }
+
+  #cart .account_nav ul li a {
+    color: black;
+  }
+
+  #cart .cont_item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin: 1rem 0;
+    border: 1px solid black;
+    border-radius: 10px;
+  }
+
+  .cont_item .cart_image image {
+    width: 10rem;
+  }
+
+  .cont_item .cart_info h4 {
+    font-weight: 600;
+    font-size: 0.5rem;
+  }
+
+  .cont_item .cart_info p {
+    margin: 0;
+    font-size: 0.5rem;
+  }
+  .cont_item .cart_btn button {
+    border: none;
+    background-color: black;
+    padding: 0.1rem 1rem;
+    color: white;
+    font-weight: 600;
+    border-radius: 50px;
+    font-size: 0.6rem;
+  }
+
+  .cont_item .cart_btn_remove button {
+    border: none;
+    padding: 0.1rem 1rem;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    border-radius: 50px;
+    border: 1px solid black;
+    background-color: transparent;
+  }
+}
